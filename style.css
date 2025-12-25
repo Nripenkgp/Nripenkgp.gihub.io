@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f4f7fb;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(120deg, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+/* Profile */
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px;
+    background: white;
+}
+
+.profile img {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+}
+
+.profile-text {
+    max-width: 650px;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+}
+
+h2 {
+    color: #1e3c72;
+    margin-bottom: 20px;
+}
+
+/* Cards */
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-left: 5px solid #1e3c72;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Publications */
+.pub-list li {
+    background: white;
+    padding: 18px;
+    margin-bottom: 18px;
+    line-height: 1.6;
+    border-left: 4px solid #1e3c72;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.citations {
+    color: #1e3c72;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+.scholar-link a {
+    text-decoration: none;
+    color: #1e3c72;
+    font-weight: 600;
+}
+
+/* Skills */
+.skill-bar {
+    margin-bottom: 18px;
+}
+
+.bar {
+    height: 12px;
+    background: #ddd;
+    border-radius: 6px;
+}
+
+.progress {
+    height: 100%;
+    width: 0;
+    background: #1e3c72;
+    border-radius: 6px;
+    transition: width 1.5s ease;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #1e3c72;
+    color: white;
+    padding: 15px;
+}
+
